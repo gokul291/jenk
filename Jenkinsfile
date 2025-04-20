@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get Code') {
             steps {
-                git url: 'https://github.com/usadhana/my-ne-repo.git', branch: 'master'
+                git url: 'https://github.com/gokul291/jenk.git', branch: 'main'
             }
         }
         stage('Build') {
